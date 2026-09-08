@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+    <string name="pantry_subtitle">Manage your pantry with ease</string>
+    <string name="get_started">Get Started</string>
+</resources>
