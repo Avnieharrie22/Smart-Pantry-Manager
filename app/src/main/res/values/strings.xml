@@ -1,5 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Smart Pantry Manager</string>
-    <string name="pantry_subtitle">Manage your pantry with ease</string>
+
+    <string name="pantry_subtitle">Manage your pantry smarter and reduce food waste.</string>
     <string name="get_started">Get Started</string>
+
+    <string name="pantry_title">My Smart Pantry</string>
+    <string name="pantry_subtitle_screen">Manage your food items with ease</string>
+
+    <string name="my_pantry">My Pantry</string>
+    <string name="add_item">Add Item</string>
+    <string name="expiring_soon">Expiring Soon</string>
+    <string name="search_pantry">Search Pantry</string>
+
+    <string name="pantry_summary">Pantry Summary</string>
+
+    <string name="summary_text">Total Items: 0\nLow Stock: 0\nExpiring Soon: 0</string>
+
 </resources>
