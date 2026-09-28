@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="18dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Recipe icon -->
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="★"
+        android:textColor="#A9573F"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="#F4DED2" />
+
+    <!-- Recipe information -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp">
+
+        <TextView
+            android:id="@+id/textRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vegetable Omelette"
+            android:textColor="#302A27"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRecipeSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matches your pantry"
+            android:textColor="#7D746F"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <!-- Arrow -->
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="›"
+        android:textColor="#A9573F"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
