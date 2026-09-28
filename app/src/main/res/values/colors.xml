@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="peach_background">#FFF4ED</color>
+    <color name="peach_primary">#E89A78</color>
+    <color name="peach_dark">#A64B32</color>
+    <color name="peach_light">#FCE3D5</color>
+    <color name="peach_button">#E89A78</color>
+    <color name="peach_text">#4A3028</color>
+    <color name="peach_secondary_text">#765C52</color>
+    <color name="peach_card">#FFFFFFFF</color>
+
 </resources>
+
