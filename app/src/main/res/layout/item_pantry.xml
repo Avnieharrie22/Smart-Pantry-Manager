@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp">
+
+    <!-- Ingredient Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Ingredient Icon -->
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="●"
+            android:textColor="#C96F52"
+            android:textSize="20sp"
+            android:background="#F4DED2" />
+
+        <!-- Name -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/textPantryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rice"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#302A27" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PANTRY ITEM"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="#A9573F"
+                android:letterSpacing="0.08"
+                android:layout_marginTop="3dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0E7E1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="13dp" />
+
+
+    <!-- Quantity -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="QUANTITY"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#7D746F"
+            android:letterSpacing="0.06" />
+
+        <TextView
+            android:id="@+id/textPantryQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2 kg"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#302A27" />
+
+    </LinearLayout>
+
+
+    <!-- Expiry -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="EXPIRY"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#7D746F"
+            android:letterSpacing="0.06" />
+
+        <TextView
+            android:id="@+id/textPantryExpiry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Expires 2026-12-31"
+            android:textSize="14sp"
+            android:textColor="#7D746F" />
+
+    </LinearLayout>
+
+
+    <!-- Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Edit -->
+        <LinearLayout
+            android:id="@+id/editPantryButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#F4DED2"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textColor="#A9573F"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <!-- Delete -->
+        <LinearLayout
+            android:id="@+id/deletePantryButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#F8F4EE"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="#A9573F"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
